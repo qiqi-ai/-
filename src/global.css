@@ -1,0 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=PingFang+HK:wght@400&display=swap");
+@font-face {
+  font-family: "PingFang SC";
+  src: url("/public/PingFang SC Medium.otf");
+  font-weight: 600;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body {
+  @apply leading-[normal] m-0;
+}
+*,
+::before,
+::after {
+  border-width: 0;
+}
